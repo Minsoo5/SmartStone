@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>The select form attribute</h1>
+
+<p>The form attribute specifies which form the drop-down list belongs to:</p>
+
+<form action="/action_page.php" id="savedKnife">
+    <label for="knifeName">Knife Name:</label>
+    <input type="text" id="knifeName" name="knifeName">
+    <input type="submit">
+</form>
+<br>
+
+<label for="style">Knife Style:</label>
+<select id="style" name="knifeStyle" form="savedKnife">
+    <option value="pairing">Pairing Knife</option>
+    <option value="petty">Petty Knife</option>
+    <option value="filet">Filet Knife</option>
+    <option value="boning">Boning Knife</option>
+    <option value="utility">Utility Knife</option>
+    <option value="chef">Chef Knife</option>
+    <option value="cleaver">Cleaver</option>
+    <option value="slicer">Slicer</option>
+
+</select>
+
+<p>Knife knife knife knife chef knife, I swear I'm not a serial killer in disguise</p>
+
+</body>
+</html>
